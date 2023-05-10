@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>CatPhotoApp</h1>
+        <h2>Cat Photos</h2>
+        <p>See more <a href="">cat photos</a> in our gallery.</p>
+        <img src="./img/cat1.jpg" alt="">
+        
+        <h1>Cat Lists</h1>
+        <h2>Things cat love:</h2>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <hr>
+        <div class="cats-loves-img">
+            <img src="./img/cat2.jpg" alt="">
+            <p>Cat <i>love</i> lasagna.</p>
+        </div>
+        <h2>Top 3 things cats hate:</h2>
+        <ol>
+            <li>flea treatment</li>
+            <li>thnder</li>
+            <li>other cast</li>
+        </ol>
+        <div class="cats-hate-img">
+            <img src="./img/cat3.jpg" alt="">
+            <p>Cats <b>hate</b> other cats.</p>
+        </div>
+
+        <h1>Cat Form</h1>
+        <form action="" enctype="multipart/form-data">
+        <div>
+            <fieldset>
+                <legend>
+                    <p>Is your cat an indoor or outdoor cat?</p>
+                </legend>  
+                <input type="radio" name="io-cat" value="Indoor" id="indoor">
+                <label for="indoor">Indoor</label>
+                <input type="radio" name="io-cat" value="Outdoor" id="outdoor">
+                <label for="outdoor">Outdoor</label>
+            </fieldset>   
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>
+                    <p>What's your cat's personnality?</p>
+                </legend>
+                <input type="checkbox" name="loving" value="loving" id="loving"> 
+                <label for="loving">Loving</label>
+                <input type="checkbox" name="lazy" value="lazy" id="lazy"> 
+                <label for="lazy">Lazy</label>
+                <input type="checkbox" name="energetic" value="energetic" id="energetic"> 
+                <label for="energetic">Energetic</label>
+            </fieldset>
+        </div>
+        
+        <div>
+            <input type="text" name="" id="" placeholder="cat photo URL">
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>

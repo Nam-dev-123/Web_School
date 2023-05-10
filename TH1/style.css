@@ -1,0 +1,20 @@
+body{
+    width: 800px;
+    margin: 0px auto;
+}
+
+.cats-loves-img{
+    margin-left:37px;
+}
+
+.cats-hate-img{
+    margin-left:37px;
+}
+
+a{
+    color: blue;
+}
+
+hr{
+    margin-bottom: 0px;
+}
